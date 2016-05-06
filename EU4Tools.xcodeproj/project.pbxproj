@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBAE5A61CDC3C0200EC0CAD /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAE5A51CDC3C0200EC0CAD /* StartViewModel.swift */; };
 		5DCEC19B1CC9ABF900669BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC19A1CC9ABF900669BCD /* AppDelegate.swift */; };
-		5DCEC19D1CC9ABF900669BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC19C1CC9ABF900669BCD /* ViewController.swift */; };
 		5DCEC1A01CC9ABF900669BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCEC19E1CC9ABF900669BCD /* Main.storyboard */; };
 		5DCEC1A21CC9ABF900669BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCEC1A11CC9ABF900669BCD /* Images.xcassets */; };
 		5DCEC1A51CC9ABF900669BCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DCEC1A31CC9ABF900669BCD /* LaunchScreen.xib */; };
 		5DCEC1B11CC9ABF900669BCD /* EU4ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1B01CC9ABF900669BCD /* EU4ToolsTests.swift */; };
+		5DCEC1BC1CC9AC3D00669BCD /* UnitCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1BA1CC9AC3D00669BCD /* UnitCalculatorViewController.swift */; };
+		5DCEC1BF1CC9AC5500669BCD /* UnitCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1BE1CC9AC5500669BCD /* UnitCalculatorViewModel.swift */; };
+		5DCEC1C31CC9AC9400669BCD /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1C21CC9AC9400669BCD /* Unit.swift */; };
+		5DCEC1C51CC9ACA000669BCD /* Infantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1C41CC9ACA000669BCD /* Infantry.swift */; };
+		5DCEC1C71CC9ACA900669BCD /* Cavalry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1C61CC9ACA900669BCD /* Cavalry.swift */; };
+		5DCEC1C91CC9ACB300669BCD /* Cannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1C81CC9ACB300669BCD /* Cannon.swift */; };
+		5DCEC1CB1CDC334700669BCD /* UnitCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DCEC1CA1CDC334700669BCD /* UnitCalculatorViewController.xib */; };
+		5DCEC1CD1CDC339600669BCD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEC1CC1CDC339600669BCD /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DBAE5A51CDC3C0200EC0CAD /* StartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		5DCEC1951CC9ABF900669BCD /* EU4Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EU4Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCEC1991CC9ABF900669BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCEC19A1CC9ABF900669BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DCEC19C1CC9ABF900669BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DCEC19F1CC9ABF900669BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DCEC1A11CC9ABF900669BCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DCEC1A41CC9ABF900669BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5DCEC1AA1CC9ABF900669BCD /* EU4ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EU4ToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCEC1AF1CC9ABF900669BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCEC1B01CC9ABF900669BCD /* EU4ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EU4ToolsTests.swift; sourceTree = "<group>"; };
+		5DCEC1BA1CC9AC3D00669BCD /* UnitCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitCalculatorViewController.swift; sourceTree = "<group>"; };
+		5DCEC1BE1CC9AC5500669BCD /* UnitCalculatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitCalculatorViewModel.swift; sourceTree = "<group>"; };
+		5DCEC1C21CC9AC9400669BCD /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		5DCEC1C41CC9ACA000669BCD /* Infantry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Infantry.swift; sourceTree = "<group>"; };
+		5DCEC1C61CC9ACA900669BCD /* Cavalry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cavalry.swift; sourceTree = "<group>"; };
+		5DCEC1C81CC9ACB300669BCD /* Cannon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cannon.swift; sourceTree = "<group>"; };
+		5DCEC1CA1CDC334700669BCD /* UnitCalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitCalculatorViewController.xib; sourceTree = "<group>"; };
+		5DCEC1CC1CDC339600669BCD /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +93,14 @@
 		5DCEC1971CC9ABF900669BCD /* EU4Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5DCEC1CE1CDC38CE00669BCD /* Utils */,
+				5DCEC1C11CC9AC8400669BCD /* Models */,
 				5DCEC19A1CC9ABF900669BCD /* AppDelegate.swift */,
-				5DCEC19C1CC9ABF900669BCD /* ViewController.swift */,
 				5DCEC19E1CC9ABF900669BCD /* Main.storyboard */,
 				5DCEC1A11CC9ABF900669BCD /* Images.xcassets */,
 				5DCEC1A31CC9ABF900669BCD /* LaunchScreen.xib */,
 				5DCEC1981CC9ABF900669BCD /* Supporting Files */,
+				5DCEC1C01CC9AC5C00669BCD /* Unit Calculator */,
 			);
 			path = EU4Tools;
 			sourceTree = "<group>";
@@ -110,6 +128,36 @@
 				5DCEC1AF1CC9ABF900669BCD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DCEC1C01CC9AC5C00669BCD /* Unit Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5DCEC1BA1CC9AC3D00669BCD /* UnitCalculatorViewController.swift */,
+				5DCEC1CA1CDC334700669BCD /* UnitCalculatorViewController.xib */,
+				5DCEC1BE1CC9AC5500669BCD /* UnitCalculatorViewModel.swift */,
+				5DCEC1CC1CDC339600669BCD /* StartViewController.swift */,
+				5DBAE5A51CDC3C0200EC0CAD /* StartViewModel.swift */,
+			);
+			name = "Unit Calculator";
+			sourceTree = "<group>";
+		};
+		5DCEC1C11CC9AC8400669BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DCEC1C21CC9AC9400669BCD /* Unit.swift */,
+				5DCEC1C41CC9ACA000669BCD /* Infantry.swift */,
+				5DCEC1C61CC9ACA900669BCD /* Cavalry.swift */,
+				5DCEC1C81CC9ACB300669BCD /* Cannon.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5DCEC1CE1CDC38CE00669BCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCEC1CB1CDC334700669BCD /* UnitCalculatorViewController.xib in Resources */,
 				5DCEC1A01CC9ABF900669BCD /* Main.storyboard in Resources */,
 				5DCEC1A51CC9ABF900669BCD /* LaunchScreen.xib in Resources */,
 				5DCEC1A21CC9ABF900669BCD /* Images.xcassets in Resources */,
@@ -212,7 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCEC19D1CC9ABF900669BCD /* ViewController.swift in Sources */,
+				5DCEC1C51CC9ACA000669BCD /* Infantry.swift in Sources */,
+				5DCEC1CD1CDC339600669BCD /* StartViewController.swift in Sources */,
+				5DCEC1BC1CC9AC3D00669BCD /* UnitCalculatorViewController.swift in Sources */,
+				5DCEC1C71CC9ACA900669BCD /* Cavalry.swift in Sources */,
+				5DBAE5A61CDC3C0200EC0CAD /* StartViewModel.swift in Sources */,
+				5DCEC1C31CC9AC9400669BCD /* Unit.swift in Sources */,
+				5DCEC1BF1CC9AC5500669BCD /* UnitCalculatorViewModel.swift in Sources */,
+				5DCEC1C91CC9ACB300669BCD /* Cannon.swift in Sources */,
 				5DCEC19B1CC9ABF900669BCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EU4Tools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EU4Tools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +467,7 @@
 				5DCEC1B61CC9ABF900669BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCEC1B71CC9ABF900669BCD /* Build configuration list for PBXNativeTarget "EU4ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +476,7 @@
 				5DCEC1B91CC9ABF900669BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
