@@ -21,7 +21,7 @@ class UnitCalculatorViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var cavalryTotalLabel: UILabel!
     @IBOutlet weak var cannonTotalLabel: UILabel!
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -44,8 +44,8 @@ class UnitCalculatorViewController: UIViewController, UITextFieldDelegate {
     }
     
     private func updateUI() {
-        if let armyLimit = self.viewModel.numberFormatter.numberFromString(self.unitSizeField.text) {
-            if let infantryInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.infantryRatioField.text) {
+        if let armyLimit = self.viewModel.numberFormatter.numberFromString(self.unitSizeField.text!) {
+            if let infantryInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.infantryRatioField.text!) {
                 self.viewModel.infantryRatio = infantryInput.integerValue
                 let infantryTotal = self.viewModel.calculateTotalInfantry(armyLimit.integerValue)
                 self.infantryTotalLabel.text = self.viewModel.numberFormatter.stringFromNumber(infantryTotal)
@@ -53,7 +53,7 @@ class UnitCalculatorViewController: UIViewController, UITextFieldDelegate {
                 self.infantryTotalLabel.text = ""
             }
             
-            if let cavalryInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.cavalryRatioField.text) {
+            if let cavalryInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.cavalryRatioField.text!) {
                 self.viewModel.cavalryRatio = cavalryInput.integerValue
                 let cavalryTotal = self.viewModel.calculateTotalCavalry(armyLimit.integerValue)
                 self.cavalryTotalLabel.text = self.viewModel.numberFormatter.stringFromNumber(cavalryTotal)
@@ -61,7 +61,7 @@ class UnitCalculatorViewController: UIViewController, UITextFieldDelegate {
                 self.cavalryTotalLabel.text = ""
             }
             
-            if let cannonInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.cannonRatioField.text) {
+            if let cannonInput: NSNumber = self.viewModel.numberFormatter.numberFromString(self.cannonRatioField.text!) {
                 self.viewModel.cannonRatio = cannonInput.integerValue
                 let cannonTotal = self.viewModel.calculateTotalCannonry(armyLimit.integerValue)
                 self.cannonTotalLabel.text = self.viewModel.numberFormatter.stringFromNumber(cannonTotal)

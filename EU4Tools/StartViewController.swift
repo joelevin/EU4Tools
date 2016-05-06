@@ -17,8 +17,8 @@ class StartViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let typedViewControllers = self.viewControllers as? [UIViewController] {
-            self.viewModel = StartViewModel(viewControllers: typedViewControllers)            
+        if let viewControllers = self.viewControllers {
+            self.viewModel = StartViewModel(viewControllers: viewControllers)
         }
     }
 
