@@ -1,0 +1,6 @@
+framework module Pods_EU4Tools {
+  umbrella header "Pods-EU4Tools-umbrella.h"
+
+  export *
+  module * { export * }
+}
