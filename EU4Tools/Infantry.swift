@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct Infantry: Unit {
+struct Infantry {
     
 }

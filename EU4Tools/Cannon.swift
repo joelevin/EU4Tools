@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct Cannon: Unit {
+struct Cannon {
     
 }

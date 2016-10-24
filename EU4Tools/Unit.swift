@@ -8,5 +8,6 @@
 
 import Foundation
 
-protocol Unit {
+struct Unit {
+    var size: Int = 0
 }

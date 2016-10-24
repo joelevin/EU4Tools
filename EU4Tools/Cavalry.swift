@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct Cavalry: Unit {
+struct Cavalry {
     
 }
