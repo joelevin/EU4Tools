@@ -49,6 +49,14 @@ class UnitCalculatorViewController: UIViewController, UITextFieldDelegate {
         self.viewModel.cavalryOutput?.bindTo(self.cavalryTotalLabel.rx.text).addDisposableTo(self.disposeBag)
         self.viewModel.cannonryOutput?.bindTo(self.cannonTotalLabel.rx.text).addDisposableTo(self.disposeBag)
         
+        let tapBackground = UITapGestureRecognizer()
+        tapBackground.rx.event
+            .subscribe(onNext: { [weak self] _ in
+                self?.view.endEditing(true)
+                })
+            .addDisposableTo(disposeBag)
+        view.addGestureRecognizer(tapBackground)
+        
         self.title = self.viewModel.title
     }
 

@@ -247,6 +247,7 @@
 				TargetAttributes = {
 					5DCEC1941CC9ABF900669BCD = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5T34G2Z6UW;
 						LastSwiftMigration = 0800;
 					};
 					5DCEC1A91CC9ABF900669BCD = {
@@ -531,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5T34G2Z6UW;
 				INFOPLIST_FILE = EU4Tools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5T34G2Z6UW;
 				INFOPLIST_FILE = EU4Tools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
